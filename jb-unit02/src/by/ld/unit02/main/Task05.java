@@ -6,7 +6,7 @@ public class Task05 {
 	 */
 
 	public static void main(String[] args) {
-		double a, b, sq_a=0, sq_b=0, min=0, sq_min=0;
+		double a, b, sq_a=0, sq_b=0, min=0, sq_min=0;// соблюдай правила именования идентификаторов
 		
         a=4.3;
         b=1.3;
@@ -23,7 +23,7 @@ public class Task05 {
          	min=b;
         } else {
           	 System.out.println("The numbers are equal, their squared numbers are equal too! No smallest!");
-	    	 return;
+	    	 return;// не стоит Return использовать в неочевидном месте, это не ошика, но позволяет запутаться в коде
 	     }
         
         System.out.printf("The smallest result is  %.2f (square of number %.2f)", sq_min, min);
