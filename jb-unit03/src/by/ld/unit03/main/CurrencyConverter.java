@@ -69,3 +69,4 @@ public class CurrencyConverter {
 	     } 
 
 }
+// задачи модуля 3 защитаны
